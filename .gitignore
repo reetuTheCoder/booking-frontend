@@ -1,2 +1,4 @@
-node_modules
-config.js
+echo "node_modules/
+.env
+.DS_Store
+*.log" > .gitignore.env
