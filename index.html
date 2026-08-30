@@ -96,10 +96,11 @@
     <!-- <span>✨ fixed box<br>400px × 200px</span> -->
   </div>
 
- 
+   <script src="./config.js"></script>
   <!-- Authentication UI logic -->
   <script>
-    const API_BASE = `http://122.160.157.99:3000/api`
+    // const API_BASE = `http://122.160.157.99:3000/api`
+    const API_BASE = window._APP_CONFIG_.API_BASE_URL;
     const authArea = document.getElementById('tezkit-auth-area');
 
     async function updateAuthUI() {
