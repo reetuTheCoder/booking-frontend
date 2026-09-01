@@ -1,7 +1,7 @@
 {
   "name": "examples",
   "version": "1.0.0",
-  "description": "",
+  "description": "Hotel Booking Frontend",
   "main": "index.js",
   "scripts": {
     "build": "node build.js",
@@ -11,7 +11,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "http-server": "^14.1.1",
-    "vercel": "^59.10.0"
+    "http-server": "^14.1.1"
   }
 }
