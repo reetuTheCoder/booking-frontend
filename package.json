@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "http-server -c-1 -p 8080 ."
+    "build": "node build.js",
+    "start": "http-server -c-1 -p 8080 .",
+    "vercel-build": "node build.js"
   },
   "author": "",
   "license": "ISC",

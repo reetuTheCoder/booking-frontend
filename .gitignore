@@ -1,8 +1,17 @@
-# .gitignore
-node_modules/
+# Environment files
+config.js
 .env
 .env.local
 .env.*.local
-.DS_Store
+
+# Node modules
+node_modules/
+
+# Logs
 *.log
-.vercelconfig.js
+
+# OS files
+.DS_Store
+
+# Vercel
+.vercel
