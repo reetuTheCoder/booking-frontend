@@ -4,9 +4,7 @@
   "description": "Hotel Booking Frontend",
   "main": "index.js",
   "scripts": {
-    "build": "node build.js",
-    "start": "http-server -c-1 -p 8080 .",
-    "vercel-build": "node build.js"
+    "start": "http-server -c-1 -p 8080 ."
   },
   "author": "",
   "license": "ISC",

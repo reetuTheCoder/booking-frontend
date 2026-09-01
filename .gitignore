@@ -1,5 +1,4 @@
 # Environment files
-config.js
 .env
 .env.local
 .env.*.local
